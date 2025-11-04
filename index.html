@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Semantic Page</title>
+</head>
+<body>
+    <h1>Interactive Example</h1>
+
+    <h3>Section 1 Lessons</h3>
+
+    <!-- Toggle Section-->
+    <button id="MenuBtn">Toggle Menu</button>
+      <ul id="Menu" style="display: none;">
+        <li>><a href="#" style="text-decoration: none;">Home</a></li>  
+        <li>><a href="#" style="text-decoration: none;">About</a></li> 
+        <li>><a href="#" style="text-decoration: none;">Services</a></li>  
+        <li>><a href="#" style="text-decoration: none;">Contact</a></li> 
+      </ul>
+
+      <!-- Show Alert Section-->
+    <button id="AlertBtn">Show Alert</button>
+
+    <!-- Increment / Decrement Section-->
+    <button id="IncrementBtn"> Increment Counter</button>
+    <button id="DecrementBtn">Decrement Counter</button>
+
+    <!-- Reset Section-->
+    <button id="ResetBtn">Reset</button>
+
+      <!-- Counter Section for Increment / Decrement / Reset-->
+    <p>Counter: <span id="counter">0</span></p>
+
+      <!-- User Input Section-->
+    <label for="username">Enter your Name</label>
+    <input type="text" id="username" placeholder="Your Name" required>
+    <button id="GreetBtn"> Greet Me</button>
+      <br>
+    <p id="GreetMsg"></p>
+    <br>
+    <button id="conGrats">Add Paragraph</button>
+    <div id="paragraphContainer"></div>
+
+
+     <!-- Link to external Javascript file -->
+      <script src="script.js"></script>
+  </footer>
+</body>
+</html>
